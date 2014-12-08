@@ -10,7 +10,7 @@ gem "gettext"
 gem "sundawg_country_codes" #, :lib => 'country_iso_translater'
 gem "zip"
 gem 'csv-mapper'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.5.10'
 gem 'wicked_pdf'
 gem 'chronic' # needed for 'lib/estructura'
 
