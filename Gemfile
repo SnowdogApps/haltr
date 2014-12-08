@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-gem "money", "=5.0.0"
+if RUBY_VERSION > '1.9'
+  gem "money", "~> 5.1.0"
+else
+  gem "money", "~> 5.0.0"
+end
 gem "state_machine"
 gem "gettext"
 gem "sundawg_country_codes" #, :lib => 'country_iso_translater'
