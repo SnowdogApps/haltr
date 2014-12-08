@@ -63,3 +63,8 @@ dk:
   percent: 25.0
   default: true
   category: S
+pl:
+- name: VAT
+  percent: 23.0
+  default: true
+  category: S
